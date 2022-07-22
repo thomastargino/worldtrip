@@ -9,7 +9,7 @@ export default function City({name, country, flag, image}) {
 					<Heading fontSize="xl" fontWeight="500">{name}</Heading>
 					<Text mt="3" fontSize="md" color="gray.500" fontWeight="500">{country}</Text>
 				</Flex>
-				<Image src={flag} w="30px" h="30px" borderRadius="50%" objectFit="cover" />
+				<Image src={flag} alt={`${country}`} w="30px" h="30px" borderRadius="50%" objectFit="cover" />
 			</Flex>
 		</Box>
 	)
