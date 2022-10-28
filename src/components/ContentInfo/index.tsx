@@ -1,5 +1,5 @@
 import { Grid, Text } from "@chakra-ui/react";
-import Infos from "./infos";
+import Infos from "./Infos";
 
 export default function ContentInfo() {
 	return (
