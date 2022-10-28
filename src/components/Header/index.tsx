@@ -30,7 +30,7 @@ export default function Header() {
 					w={["81px","184px"]}
 					justifySelf="center"
 					gridColumn="2"
-					src="/logo.svg"
+					src="/Logo.svg"
 					alt="Logo WorldTrip"
 				/>
 			</Grid>
