@@ -40,6 +40,15 @@ export default function Continent({continent}: ContinentProps) {
 		<Flex direction="column">
 			<Head>
 				<title>WorldTrip - {continent.title}</title>
+
+				<meta property="og:title" content={`WorldTrip ${continent.title}`} />
+        <meta property="og:description" content={continent.description} />
+        <meta name="twitter:title" content={`WorldTrip ${continent.title}`} />
+
+        <meta name="twitter:image" content={continent.banner_image} />
+        <meta name="twitter:image:src" content={continent.banner_image} />
+        <meta property="og:image" content={continent.banner_image} />
+        <meta property="og:image:secure_url" content={continent.banner_image} />
 			</Head>
 
 			<Header />
